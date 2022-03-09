@@ -1,0 +1,19 @@
+create table student(sno number(3),sname varchar2(15),m number(3),p number(3),cs number(3),total number(5),avg number(5,2));
+
+
+SQL> desc student
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SNO                                                NUMBER(3)
+ SNAME                                              VARCHAR2(10)
+ M                                                  NUMBER(3)
+ P                                                  NUMBER(3)
+ CS                                                 NUMBER(3)
+ TOTAL                                              NUMBER(5)
+ AVG                                                NUMBER(5,2)
+
+
+
+insert into student(sno,sname,m,p,cs) values(&sno,'&name',&maths,&physics,&cs);
+
+
