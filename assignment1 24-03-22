@@ -1,0 +1,3 @@
+SQL> create table emp(empno number(4),empname varchar2(20),empdesig varchar2(20),empsal number(5));
+SQL> insert into emp1 values(&no,'&name','&desig',&sal);
+SQL> select * from emp1;
